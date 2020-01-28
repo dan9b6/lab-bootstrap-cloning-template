@@ -1,73 +1,295 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/starter-code/style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
     <title>Significa</title>
   </head>
+
   <body>
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Your go-to digital agency
-    Significa is a digital design-led agency mainly focused on Product Development.
-    Oopsie for users — Your favourite food, one click away!
-    Business Analysis, Product Management, Consultancy & 5 others
-    Opennode — Bitcoin, for everyday.
-    UI/UX, Front End, Front End
-    AKASHA — Open systems to expand our collective mind.
-    UI/UX, Front End, Illustration
-    We build digital products
-    Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.
-    Strategy
-    UX research
-    Business strategy
-    Brand strategy
-    Product strategy
-    Product management
-    Product design
-    Product design
-    User experience
-    User interface
-    Brand development
-    Illustration
-    Motion & Video
-    Development
-    Development
-    Front-end engineering
-    Web-app development
-    Native app development
-    Development operations
-    View services
-    View services
-    What's new on Significa Labs
-    Automating releases for UI Kits — How to automate release logs and builds for your style guides
-    Tutorial on Medium
-    An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
-    Article on Medium
-    On creating synergies — Sharing without compromising our identity
-    Article on Medium
-    Enter the Lab
-    Drop by, we're hiring.
-    We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.
-    View careers
-    Legal © 2019
-    Say
-    hello@significa.co
-    (+351) 226 001 751
-    Links
-    Home
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Network
-    Coletiv
-    Adamant
-    Follow us
+    <!--NAVBAR-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+        <a><img src="./images/logo.svg" alt="logo"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto text-dark">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Showcase <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Labs </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--OPENING STATEMENT-->
+    <div class="jumbotron jumbotron-fluid bg-transparent ">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <h1 class="display-4 py-5">Your go-to digital agency.</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <p class="lead py-5">
+              Significa is a digital design-led agency mainly focused on product development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card border-0 py-5" style="width: 18rem;">
+            <img src="./images/2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title pt-5">
+                Oopsie for users — Your favourite food, one click away!
+              </h5>
+              <p class="card-text">
+                Business Analysis, Product Management, Consultancy & 5 others
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 pt-4" style="width: 18rem;">
+            <img src="./images/1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title pt-4">Opennode — Bitcoin, for everyday.</h5>
+              <p class="card-text">
+                UI/UX, Front End, Front End
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 pt-5" style="width: 18rem;">
+            <img src="./images/3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title pt-4">AKASHA — Open systems to expand our collective mind.</h5>
+              <p class="card-text">
+                UI/UX, Front End, Illustration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--WHITE SECTION-->
+
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <h3>We build digital products</h3>
+          </div>
+          <div class="col">
+            <p>
+              We build digital products Having a design-led approach to what we do defines who we
+              are. We take on products from inception to launch, from business model to people's
+              pocket, from wireframe to continuous deployment.
+            </p>
+          </div>
+        </div>
+        <div class="row py-5 justify-content-center">
+          <div class="col-3">
+            <h4>Strategy</h4>
+            <ul>
+              <li>UX research</li>
+              <li>Business strategy</li>
+              <li>Brand strategy</li>
+              <li>Product strategy</li>
+              <li>Product management</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h4>Product Design</h4>
+            <ul>
+              <li>User experience</li>
+              <li>User interface</li>
+              <li>Brand development</li>
+              <li>Illustration</li>
+              <li>Motion & Video</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h4>Development</h4>
+            <ul>
+              <li>Front-end engineering</li>
+              <li>Web-app development</li>
+              <li>Native-app development</li>
+              <li>Development operations</li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pt-2 pb-5">
+          <a href="#">View services -> </a>
+        </div>
+      </div>
+
+      <!--BLACK SECTION-->
+
+      <div class="container">
+        <div class="row bg-dark text-white p-5">
+          <div class="col-4">
+            <h3>What's new on Significa Labs</h3>
+          </div>
+          <div class="col-8">
+            <h5>
+              Automating releases for UI Kits — How to automate release logs and builds for your
+              style guides
+            </h5>
+            <p>Tutorial on Medium</p>
+            <hr />
+            <h5>
+              An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
+            </h5>
+            <p>Article on Medium</p>
+            <hr />
+            <h5>
+              On creating synergies — Sharing without compromising our identity
+            </h5>
+            <p>Article on Medium</p>
+            <hr />
+            <a href="#">Enter the lab --> </a>
+          </div>
+        </div>
+      </div>
+
+      <!--HIRING-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h4>Drop by, we're hiring.</h4>
+          </div>
+          <div class="col-8">
+            <p>
+              We are an open-minded, open-hearted team that loves the thrill of creating exciting
+              new projects. Drop us a line if you’re passionate and talented to do everything you
+              set your mind to.
+            </p>
+            <a href="#">View careers --></a>
+          </div>
+        </div>
+      </div>
+
+      <!--IMAGES-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col w-25">
+            <img src="./images/4.png" alt="" />
+          </div>
+          <div class="col w-25">
+            <img src="./images/5.png" alt="" />
+          </div>
+          <div class="col w-25">
+            <img src="./images/6.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER-->
+
+      <div class="container">
+        <footer>
+          <div class="row">
+            <div class="col">
+              <p>0</p>
+              <ul>
+                <li>Legal &copy; 2019</li>
+              </ul>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+              <p>Say</p>
+              <ul>
+                <li>hello@significa.co</li>
+                <li>(+351) 226 001 751</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p>Links</p>
+              <ul>
+                <li>Home</li>
+                <li>Showcase</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Careers</li>
+                <li>Labs</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p>Network</p>
+              <ul>
+                <li>Coletiv</li>
+                <li>Adamant</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p>Follow Us</p>
+              <ul>
+                <li>(ADD FA FONTS FOR)</li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <!--END DIV-->
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
